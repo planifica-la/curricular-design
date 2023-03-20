@@ -1,0 +1,2 @@
+class FundamentalCompetence < ApplicationRecord
+end

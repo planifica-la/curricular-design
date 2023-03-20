@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  level: one
+  grade: 1
+  fundamental_competence: one
+
+two:
+  name: MyString
+  level: two
+  grade: 1
+  fundamental_competence: two

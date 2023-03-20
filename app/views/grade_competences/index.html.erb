@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Grade competences</h1>
+
+<div id="grade_competences">
+  <% @grade_competences.each do |grade_competence| %>
+    <%= render grade_competence %>
+    <p>
+      <%= link_to "Show this grade competence", grade_competence %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New grade competence", new_grade_competence_path %>

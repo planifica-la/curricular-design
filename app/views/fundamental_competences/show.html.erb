@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @fundamental_competence %>
+
+<div>
+  <%= link_to "Edit this fundamental competence", edit_fundamental_competence_path(@fundamental_competence) %> |
+  <%= link_to "Back to fundamental competences", fundamental_competences_path %>
+
+  <%= button_to "Destroy this fundamental competence", @fundamental_competence, method: :delete %>
+</div>
