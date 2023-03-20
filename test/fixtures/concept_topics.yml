@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  level: one
+  grade: one
+  subject: one
+  topic: MyString
+
+two:
+  level: two
+  grade: two
+  subject: two
+  topic: MyString

@@ -10,7 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_20_133742) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_20_213124) do
+  create_table "concept_topics", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.bigint "level_id", null: false
+    t.integer "grade", null: false
+    t.bigint "subject_id", null: false
+    t.string "topic"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["level_id"], name: "index_concept_topics_on_level_id"
+    t.index ["subject_id"], name: "index_concept_topics_on_subject_id"
+  end
+
+  create_table "concepts", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.bigint "concept_topic_id", null: false
+    t.text "concept"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["concept_topic_id"], name: "index_concepts_on_concept_topic_id"
+  end
+
   create_table "fundamental_competences", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -50,6 +69,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_20_133742) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "concept_topics", "levels"
+  add_foreign_key "concept_topics", "subjects"
+  add_foreign_key "concepts", "concept_topics"
   add_foreign_key "grade_competences", "fundamental_competences"
   add_foreign_key "grade_competences", "levels"
   add_foreign_key "grade_competences", "subjects"

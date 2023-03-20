@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :concepts
+  resources :concept_topics
   resources :grade_competences
   resources :fundamental_competences
   resources :project_problems

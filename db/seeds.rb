@@ -132,7 +132,7 @@ if FundamentalCompetence.all.count == 0
 	])
 end
 
-if GradeCompetence.find_by(level_id: 2) == nil
+if !GradeCompetence.find_by(level_id: 2)
 	# spanish
 	require_relative "spanish_seed"
 

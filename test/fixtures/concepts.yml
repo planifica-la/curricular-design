@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  concept_topic: one
+  concept: MyText
+
+two:
+  concept_topic: two
+  concept: MyText
