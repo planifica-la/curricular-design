@@ -25,6 +25,8 @@ The next and last layer, the subject, where the options are the following:
 - physical-education
 - religion
 
+To retrieve any of these, remember to use the extension `.yaml`
+
 ## Entry Model
 
 Each file is structured as follows:
@@ -45,4 +47,3 @@ Each file is structured as follows:
             - fundamental
             - specific
         - indicators
-    
