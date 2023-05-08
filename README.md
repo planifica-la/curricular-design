@@ -47,3 +47,8 @@ Each file is structured as follows:
             - fundamental
             - specific
         - indicators
+
+# Contributing
+Every contribution is welcome.
+Actually contributing is pretty simple.
+All I'm doing is copying, organizing and pasting all content from [here](https://www.educando.edu.do/portal/adecuacion-curricular-del-nivel-primario-y-secundario/) to the files in the `/data` directory.
