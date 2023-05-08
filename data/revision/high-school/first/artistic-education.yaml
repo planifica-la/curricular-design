@@ -1,0 +1,33 @@
+curriculum-version: revision
+level: elementary
+grade: first
+subject: artistic-education
+data:
+  cuerpo-y-movimiento:
+    theme: Cuerpo y Movimiento
+    topic: Cuerpo y Movimiento
+    contents:
+      concepts:
+        - Cuerpo y movimiento
+      procedures:
+        - Exploración de sonidos vocales, corporales y del entorno
+      attitudes:
+        - Autovaloración de sus capacidades cognitivas y sensoriales
+        - Valoración y respeto de su cuerpo y su voz.
+    competences:
+      fundamental:
+        - Comunicativa
+        - Pensamiento Lógico, Creativo y Crítico
+        - Resolución de Problemas
+        - Científica y Tecnológica
+        - Ambiental y de la Salud
+        - Ética y Ciudadana
+        - Desarrollo Personal y Espiritual
+      specific:
+        - Expresa artísticamente sentimientos y emociones producto de la percepción de sí mismo/a y de su entorno
+        - Utiliza en forma lógica, critica y creativa elementos artísticos diversos en sus expresiones, identicándolos consigo mismo y sus contextos
+        - Representa situaciones de su entorno explorando las capacidades expresivas de su cuerpo; con el n de mostrar respeto de sí, de otras personas y del entorno natural y social, en interacción con estos
+    indicators:
+      - Reconoce sus capacidades creativas, en los aspectos cognitivos, corporales y sensoriales, tanto al expresarse, como al percibirse a sí mismo y a su entorno.
+      - Cuida y respeta su cuerpo al relacionarse artísticamente en espacios individuales o colectivos, así como en entornos naturales o creados para las artes
+      - Participa activamente en actividades artísticas individuales y grupales, respetando acuerdos y aportando desde sus posibilidades creativas
